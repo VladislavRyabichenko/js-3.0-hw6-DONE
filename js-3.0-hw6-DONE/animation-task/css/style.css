@@ -1,0 +1,66 @@
+.box, .target {
+    margin-top: 20px;
+    position: absolute;
+    width: 7rem;
+    height: 7rem;
+    background: #4598b6;
+    color: white;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 2.5rem;
+    line-height: 2;
+    text-align: center;
+    transition: 2s;
+}
+
+#wrapper {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+
+
+}
+
+.target {
+    background: none;
+    border: 1px solid #000;
+    transition-duration: 1s;
+    color: black;
+}
+
+button{
+    font-size: 1.5em;
+    padding: 10px;
+    /*margin: 0 auto;*/
+}
+
+.move {
+    transition-duration: 1s;
+}
+
+img {
+    width: 200px;
+    position: absolute;
+    opacity: 0;
+    /*transition-duration: 1s;*/
+    transform: scale(1);
+    z-index: -100;
+}
+
+.active {
+    transition-duration: 1s;
+    transform: scale(2);
+    opacity: 1;
+    display: block;
+    position: absolute;
+
+
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+}
+
+

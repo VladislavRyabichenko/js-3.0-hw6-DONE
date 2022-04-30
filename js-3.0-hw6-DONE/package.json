@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "jest": "^27.4.7"
+  },
+  "scripts": {
+    "test": "jest --env=jsdom"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  }
+}
